@@ -69,6 +69,7 @@
             label6.Size = new Size(95, 17);
             label6.TabIndex = 6;
             label6.Text = "Create account";
+            label6.Click += label6_Click;
             // 
             // label5
             // 
