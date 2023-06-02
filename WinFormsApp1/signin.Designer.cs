@@ -54,19 +54,22 @@
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(12, 12);
+            panel1.Location = new Point(1, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1181, 502);
+            panel1.Size = new Size(766, 502);
             panel1.TabIndex = 0;
             // 
             // label6
             // 
             label6.AutoSize = true;
+            label6.BorderStyle = BorderStyle.FixedSingle;
+            label6.Cursor = Cursors.Hand;
+            label6.FlatStyle = FlatStyle.Popup;
             label6.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.FromArgb(0, 0, 192);
             label6.Location = new Point(404, 418);
             label6.Name = "label6";
-            label6.Size = new Size(95, 17);
+            label6.Size = new Size(97, 19);
             label6.TabIndex = 6;
             label6.Text = "Create account";
             label6.Click += label6_Click;

@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            label2 = new Label();
+            u_textbox = new TextBox();
+            pass_textbox = new TextBox();
+            phone_textbox = new TextBox();
+            e_textbox = new TextBox();
+            ad_textbox = new TextBox();
+            u = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
@@ -54,85 +54,85 @@
             label1.TabIndex = 1;
             label1.Text = "ISTE_STORE";
             // 
-            // textBox1
+            // u_textbox
             // 
-            textBox1.Location = new Point(174, 162);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(176, 27);
-            textBox1.TabIndex = 2;
+            u_textbox.Location = new Point(174, 162);
+            u_textbox.Name = "u_textbox";
+            u_textbox.Size = new Size(176, 27);
+            u_textbox.TabIndex = 2;
             // 
-            // textBox2
+            // pass_textbox
             // 
-            textBox2.Location = new Point(174, 210);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(176, 27);
-            textBox2.TabIndex = 2;
+            pass_textbox.Location = new Point(174, 210);
+            pass_textbox.Name = "pass_textbox";
+            pass_textbox.Size = new Size(176, 27);
+            pass_textbox.TabIndex = 2;
             // 
-            // textBox3
+            // phone_textbox
             // 
-            textBox3.Location = new Point(174, 252);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(176, 27);
-            textBox3.TabIndex = 2;
+            phone_textbox.Location = new Point(174, 252);
+            phone_textbox.Name = "phone_textbox";
+            phone_textbox.Size = new Size(176, 27);
+            phone_textbox.TabIndex = 2;
             // 
-            // textBox4
+            // e_textbox
             // 
-            textBox4.Location = new Point(174, 294);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(176, 27);
-            textBox4.TabIndex = 2;
+            e_textbox.Location = new Point(174, 294);
+            e_textbox.Name = "e_textbox";
+            e_textbox.Size = new Size(176, 27);
+            e_textbox.TabIndex = 2;
             // 
-            // textBox5
+            // ad_textbox
             // 
-            textBox5.Location = new Point(174, 341);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(176, 27);
-            textBox5.TabIndex = 2;
+            ad_textbox.Location = new Point(174, 341);
+            ad_textbox.Name = "ad_textbox";
+            ad_textbox.Size = new Size(176, 27);
+            ad_textbox.TabIndex = 2;
             // 
-            // label2
+            // u
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(32, 169);
-            label2.Name = "label2";
-            label2.Size = new Size(73, 20);
-            label2.TabIndex = 3;
-            label2.Text = "username";
+            u.AutoSize = true;
+            u.Location = new Point(32, 169);
+            u.Name = "u";
+            u.Size = new Size(86, 20);
+            u.TabIndex = 3;
+            u.Text = "User name :";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(32, 217);
             label3.Name = "label3";
-            label3.Size = new Size(72, 20);
+            label3.Size = new Size(77, 20);
             label3.TabIndex = 3;
-            label3.Text = "password";
+            label3.Text = "Password :";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(32, 259);
             label4.Name = "label4";
-            label4.Size = new Size(106, 20);
+            label4.Size = new Size(112, 20);
             label4.TabIndex = 3;
-            label4.Text = "phone number";
+            label4.Text = "Phone number :";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Location = new Point(32, 301);
             label5.Name = "label5";
-            label5.Size = new Size(46, 20);
+            label5.Size = new Size(53, 20);
             label5.TabIndex = 3;
-            label5.Text = "email";
+            label5.Text = "Email :";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Location = new Point(32, 348);
             label6.Name = "label6";
-            label6.Size = new Size(53, 20);
+            label6.Size = new Size(62, 20);
             label6.TabIndex = 3;
-            label6.Text = "adrees";
+            label6.Text = "Adrees :";
             // 
             // panel1
             // 
@@ -160,6 +160,7 @@
             button1.TabIndex = 6;
             button1.Text = "Sign up";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // signup
             // 
@@ -173,12 +174,12 @@
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(u);
+            Controls.Add(ad_textbox);
+            Controls.Add(e_textbox);
+            Controls.Add(phone_textbox);
+            Controls.Add(pass_textbox);
+            Controls.Add(u_textbox);
             Controls.Add(label1);
             Name = "signup";
             Text = "signup";
@@ -189,12 +190,12 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private Label label2;
+        private TextBox u_textbox;
+        private TextBox pass_textbox;
+        private TextBox phone_textbox;
+        private TextBox e_textbox;
+        private TextBox ad_textbox;
+        private Label u;
         private Label label3;
         private Label label4;
         private Label label5;
