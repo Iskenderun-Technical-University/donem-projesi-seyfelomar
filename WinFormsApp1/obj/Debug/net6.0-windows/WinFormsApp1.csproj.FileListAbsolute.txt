@@ -14,9 +14,7 @@ C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\refint\Wi
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
-C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.signin.resources
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.signup.resources
-C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.editmyinfo.resources
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.mainfrm.resources
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.myacc.resources
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Properties.Resources.resources
@@ -27,3 +25,8 @@ C:\Users\saefa\Desktop\myproject\WinFormsApp1\bin\Debug\net6.0-windows\runtimes\
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CopyComplete
+C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.signinfrm.resources
+C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.minfrm.resources
+C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pcfrm.resources
+C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.clofrm.resources
+C:\Users\saefa\Desktop\myproject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.whatcfrm.resources

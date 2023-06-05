@@ -28,24 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            lblusername = new Label();
+            lblph = new Label();
+            lblemail = new Label();
+            lbladrees = new Label();
+            button1 = new Button();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = SystemColors.ButtonFace;
-            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(354, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(68, 38);
-            label1.TabIndex = 0;
-            label1.Text = "Edit";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -87,16 +79,70 @@
             label5.TabIndex = 0;
             label5.Text = "Adrees :";
             // 
+            // lblusername
+            // 
+            lblusername.AutoSize = true;
+            lblusername.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblusername.Location = new Point(171, 129);
+            lblusername.Name = "lblusername";
+            lblusername.Size = new Size(0, 28);
+            lblusername.TabIndex = 1;
+            // 
+            // lblph
+            // 
+            lblph.AutoSize = true;
+            lblph.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblph.Location = new Point(208, 186);
+            lblph.Name = "lblph";
+            lblph.Size = new Size(0, 28);
+            lblph.TabIndex = 1;
+            // 
+            // lblemail
+            // 
+            lblemail.AutoSize = true;
+            lblemail.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblemail.Location = new Point(144, 238);
+            lblemail.Name = "lblemail";
+            lblemail.Size = new Size(0, 28);
+            lblemail.TabIndex = 1;
+            // 
+            // lbladrees
+            // 
+            lbladrees.AutoSize = true;
+            lbladrees.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lbladrees.Location = new Point(135, 292);
+            lbladrees.Name = "lbladrees";
+            lbladrees.Size = new Size(0, 28);
+            lbladrees.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Firebrick;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(606, 377);
+            button1.Name = "button1";
+            button1.Size = new Size(160, 51);
+            button1.TabIndex = 2;
+            button1.Text = "Show my data";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // myacc
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(lbladrees);
+            Controls.Add(lblemail);
+            Controls.Add(lblph);
+            Controls.Add(lblusername);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "myacc";
             Text = "myacc";
             ResumeLayout(false);
@@ -104,11 +150,14 @@
         }
 
         #endregion
-
-        private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
+        private Label lblusername;
+        private Label lblph;
+        private Label lblemail;
+        private Label lbladrees;
+        private Button button1;
     }
 }

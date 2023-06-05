@@ -19,15 +19,7 @@ namespace WinFormsApp1
         SqlConnection con = new SqlConnection(@"Data source =.\SQLEXPRESS ; Initial Catalog = DBproject; Integrated Security = true ;");
         private void button1_Click(object sender, EventArgs e)
         {
-            /* string id = idtextbox.Text;
-             string stru = u_textbox.Text;
-             string strpass = pass_textbox.Text;
-             string strphone = phone_textbox.Text;
-             string stre = e_textbox.Text;
-             string strad = ad_textbox.Text;
-            */
-
-
+            
             string sql = "insert into users values ( @username , @password , @phonenumber , @email , @adrees)";
             SqlCommand cmd = new SqlCommand(sql, con);
 

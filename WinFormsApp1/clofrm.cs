@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class editmyinfo : Form
+    public partial class clofrm : Form
     {
-        public editmyinfo()
+        public clofrm()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

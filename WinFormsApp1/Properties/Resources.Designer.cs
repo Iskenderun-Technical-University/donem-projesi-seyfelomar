@@ -63,6 +63,66 @@ namespace WinFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _81GKAtudVcL__AC_UX679_ {
+            get {
+                object obj = ResourceManager.GetObject("81GKAtudVcL._AC_UX679_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bundles_visual {
+            get {
+                object obj = ResourceManager.GetObject("bundles-visual", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c37b26e63f7a6021f71aee2cda003817 {
+            get {
+                object obj = ResourceManager.GetObject("c37b26e63f7a6021f71aee2cda003817", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__1_ {
+            get {
+                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download1 {
+            get {
+                object obj = ResourceManager.GetObject("download1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_account_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-account-30", resourceCulture);
@@ -106,6 +166,46 @@ namespace WinFormsApp1.Properties {
         internal static System.Drawing.Bitmap icons8_watches_front_view_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-watches-front-view-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Luxury_Women_Watches_Magnetic_Starry_Sky_Female_Clock_Quartz_Wristwat {
+            get {
+                object obj = ResourceManager.GetObject("Luxury-Women-Watches-Magnetic-Starry-Sky-Female-Clock-Quartz-Wristwat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap s_l1600 {
+            get {
+                object obj = ResourceManager.GetObject("s-l1600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sharkoon_tg7m_os_1 {
+            get {
+                object obj = ResourceManager.GetObject("sharkoon_tg7m_os_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sharkoon_tg7m_os_11 {
+            get {
+                object obj = ResourceManager.GetObject("sharkoon_tg7m_os_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
